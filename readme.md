@@ -1,0 +1,1 @@
+download google client secret as json and keep in the parent folder for gauth

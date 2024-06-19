@@ -1,0 +1,6 @@
+Flask==2.3.2
+oauthlib==3.2.2
+google-auth==2.17.3
+requests==2.31.0
+Flask-SQLAlchemy==3.0.4
+SQLAlchemy==2.0.19
