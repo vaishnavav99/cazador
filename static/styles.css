@@ -1,0 +1,66 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile h1 {
+    margin: 0;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout a {
+    color: #333;
+    text-decoration: none;
+    background-color: #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logout a:hover {
+    background-color: #ccc;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile img {
+        margin: 0 auto 10px;
+    }
+}
